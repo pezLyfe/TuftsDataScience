@@ -43,5 +43,100 @@ A/B Testing:
         - gamification, constant feedback, and lack of big motivations
         - "Disruptive innovation" 
     - Number 4 Experience teaches lessons, data can make the idea of lessons obsolete
-      - 
+      - "Web businesses have products too dynamic to sit still for days or weeks"
+      - "Big data is not enough, we need real-time data that we can act on during the course of a day"
+        - No time to learn and apply lessons, no lessons no rules to extract
+          - A/B to guide them, no need to worry about why users behaved in certain ways
+          - Automated changeovers of traffic to the better performing option
+          - Most important decisions are immune to focus-grouping, let alone A/B testing
+            - "Not the consumers job to know what they want"
+              - Pushing all decisions to software misses out on the big opportunities
+              - Refining over creating
+              - '3, 4, or 5 pixels wide for border, make your case?'
+                - Ultimately, who cares? Is that important in the end?
+           - Safety, confidence in decision making
+            - Atrophying of decision and planning
+  
+"Towards a more useful definition of Data Science"
+- Missed the swine flu pandemic in 2009, underestimated, overestimated in 2013 by 50%
+  - Actually over estimated prevalence 100 out of 108 weeks since August
+  - Projecting two week lag of CDC data would perform just as well
+    - Search terms from the published paper didn't line up with GFT results or the CDC data
+  - "Big Data studies" difference between big data and previous data sets
+    - collected through observation, without prior design
+    - for a purpose other than the study (adapted)
+    - Merged, making the lack of definition worse
+    - No controls on the data
+    - "seemingly complete" assuming perfect information is not the same as having complete information
+    - A size based defination of big data is unreasonable
+      - Computing power makes larger files easier as it improves
+   - GFT
+    - Overpredicted by quite a bit, underpredicted by quite a bit
+      - Does knowledge of the model change the model? 
+      - Difficulties in accounting for changes in behavior?
+    - Don't throw the baby out with the bathwater
+      - Overhyped and how it's presented
+      
+      Big Data: A Revolution Chapters 1 - 4
+ - 
+ 
+ Numbers Rule your World Chapters 2,3
+ - Modelers make general statements about the world at large from snapshots of data
+  - Two ways to tell the spinach story
+    - Triumph of the agency for a speedy response
+    - Criticizing that the spinach was likely gone by the time it was pinpointed
+      - Damage done to the spinach industry
+      - Second narrative is closer to the real truth
+  - Bills restricting credit scoring
+    - Credit scoring as redlining, and irresponsibly overcharing insurance premiums
+    - Supporters praise efficiency, reduced borrowing costs
+  - How long to wait before declaring an outbreak?
+    - CDC declared late in 2006 (close to the peak)
+    - But correctly identified no outbreak in 2005 and 2004
+    - Early in the investigation is difficult to call due to lack of information
+    - Shotgun approach yielded the spinach conclusion
+    - The cost of wrong predictions
+      - Severe loss to spinach industry
+      - Increased illness and loss of lives
+  - Broad street pump
+    - Launch of epidemiology
+      - Epidemiology intelligence services
+  - Consumer warning for all spinach
+    - Tracking down the source while cases continued to rise
+    - Finding the batch code on the offending bags
+    - Matched to tainted river water and animal feces
+ - We don't know how many cases if any were avoided due to the recall
+  - Drawing attention may have prevented further contamination
+  - But, spinach sales dropped incredibly
+    - Further effects on other bagged salads
+    - Innocent farms roped into the same category
+  - The difficulty is in connecting correlations to the cause
+    - People got sick, people ate spinach, therefore spinach made them sick
+    - One truth, but many many wrong answers
+    - Epidemiologists look beyond statistics only to find corroborative evidence
+    - Educated guesses, lab work work together to test theories
+ - Combined tools and evidence from across the country
+  - Bringing new connections that weren't possible before
+  - Problems with less common foods are easier to catch than common foods
+    - Comparing the rate of spinach consumption statewide to the 80% of cases that ate
+ - Hill's nine viewpoints
+  - 6 of 9 in the spinach case
+  - "Impossible to capture the truth, but creating useful models for understanding
+  and controlling disease is the goal"
+- Credit modelers have much lower stakes than epidemiologists
+  - However their work is scrutinized heavily by the same people that embrace epi
+  - "The miracle of instant credit"
+    - Some borrowers pose more risks than others
+    - Credit modelers allow them to differentiate
+    - High scrutiny yields tight credit which yields slow growth
+    - FICO as the first statistical model for credit
+    - Make more nuanced comparisons of customers
+    - Consistency across the population
+ - Consumer spending accounts for 2/3 of the US economy
+  - Default rates are much, much lower when compared with traditional scoring methods
+  - Gave lower incomes access to credit
+    - Is this inherently good? 
+  - Credit scores as proxy to insurance claim risk
+    - 
+    
       
