@@ -207,15 +207,22 @@ Google Flu Trends is a signatur Big Data project, and the project that leads off
 What is innovative about GFT? Is it a success or a failure? What is the future direction of 
 the project? What can data scientists learn from this effort? 
 
+"Where small data deals in exactitudes, Big Data settles for a direction"
+- GFT ultimately failed in trying to capture both
+- It did do a good job at capturing direction though
+
 1) Describe the two methods of predicting flu trends, the one used by the CDC and the one used by Google
   - Correlating relative frequency of key search terms with previous CDC data
   - CDC collects confirmed cases and makes projections (steepness of a line etc)
+  
 2) Comment on the pros and cons of the two methods
   - CDC method lags real time by two weeks, backed by hard evidence
   - GFT method 
+  
 3) GFT relies purely on correlations to make predictions. Why should the frequency of some search terms
 be positively correlated with flu cases? Give examples of search terms you think might be 
 correlated with flu
+
 4) What are some reasons why someone searching for influenza may not have the flu?
 Why might someone who has the flu not show up in Google's search logs?
   - Media coverage, may have a cold
