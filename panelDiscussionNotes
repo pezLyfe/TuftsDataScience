@@ -139,4 +139,90 @@ A/B Testing:
   - Credit scores as proxy to insurance claim risk
     - 
     
-      
+ The parable of google flu
+ - Nature reported in 2013 that GFT had predicting double the amount of confirmed cases
+  - Paper posits that the issues are not isolated here, but are endemic to data usage lately
+  - Big data hubris and algorithm dynamics
+    - Hubris: Big data are a substitute or suplement to traditional collection and analysis
+    - Quantity of data does allow to ignore foundational issues of measurement, reliability and validity
+    - Mostly data used not for its intended purposes (not for scientific analysis)
+      - Hypothesize, then confirm
+      - Use to supplement intuition, or to launch further analyses
+      - Narrow down regions of study
+  - Methodology
+    - Find best fit in 50 million search terms to match 1152 data points
+    - Weeded out seasonal search terms (High school basketball, christmas related etc)
+      - Warning of overfit, first version was part winter detector, part flu detector
+      - Made adjustments after 2009 failure to predict H1N1 outbreak
+        - Has been persistently overestimating since then
+      - As model performance degradated, projections based on two week lagging data started
+      showing higher accuracy than GFT
+      - Combining GFT with CDC data provided the highest accuracy
+    - Correlation alone, without connecting to hard evidence
+  - Algorithm Dynamics
+    - Is the instrument capturing the target? Is it stable an comparable? Are errors systematic?
+    - GFT model may have simply been unstable by the algorithm dynamics
+      - Changes made to plain google searches likely affected user behavior
+      - Google's algorithm is not static
+        - Original 45 search terms were never documented or released
+        - Lack of ability for peer review
+    - Possible spikes due to trying to differentiate cold symptoms and flu symptoms
+    - Changes made in 2011 to include additional search terms, and potential diagnoses for physical symptoms in 2012
+      - Suggested searching for flu treatments if symptoms are searched (Double entries)
+      - Recommended searches increase the magnitude of certain searches
+        - GFT model uses relative magnitude, can be heavily biased by similar searches
+      - Health based add-ons to search results
+      - Assumption that relative search volume is statically related to external events
+        - In reality, externally motivated but also cultivated by the provider
+          - Google wants you to search more to show more ads or display a certain product
+      - Changes in algorithms make replicating old studies harder or impossible
+    - "Red team" attacks for economic or political gain
+      - Campaigns aim to become trending on social platforms and search engines
+      - Monitoring behavior of people on open information sources makes it tempting to manipulate signals
+ - Transparency, Granularity, and All-Data
+  - Transparency and replication
+    - GFT papers did not meet standards, neither did the search terms provided
+    - Lack of the ability to replicate their findings
+    - Standard science requires cooperation and building on previous findings
+    - The core goal and initial results of GFT were promising, but it was a first draft
+  - A simple lagged model performs well
+    - A modest performance gain on a national level
+    - Local level study would be much more useful
+      - GFT could provide such a thing
+      - Local propagation connects with a larger outbreak and could truly be transformational
+    - Ability to replicate (Rev history on algorithms)
+      - Study the effects of the algorithm on user behavior
+      - Affects of search results on worldview
+    - Using innovative analytics in combination with "big data" 
+      - Provides a much more powerful tool
+      - New analytics on traditional data for a deeper, clearer view of the world
+- The wealth of information comes with responsibility 
+  - Responsibility to use for public interest
+  - But also responsibility to be realistic and open
+- Has now quietly begun offering the GFT data to the CDC and research groups
+  - Is the methodology being changed?
+  - Update fit to actual flu prevalence
+  
+Google Flu Trends is a signatur Big Data project, and the project that leads off the Mayer-SChonberger boook
+What is innovative about GFT? Is it a success or a failure? What is the future direction of 
+the project? What can data scientists learn from this effort? 
+
+1) Describe the two methods of predicting flu trends, the one used by the CDC and the one used by Google
+  - Correlating relative frequency of key search terms with previous CDC data
+  - CDC collects confirmed cases and makes projections (steepness of a line etc)
+2) Comment on the pros and cons of the two methods
+  - CDC method lags real time by two weeks, backed by hard evidence
+  - GFT method 
+3) GFT relies purely on correlations to make predictions. Why should the frequency of some search terms
+be positively correlated with flu cases? Give examples of search terms you think might be 
+correlated with flu
+4) What are some reasons why someone searching for influenza may not have the flu?
+Why might someone who has the flu not show up in Google's search logs?
+  - Media coverage, may have a cold
+  - 
+5) Suggest ways in which Google Flu Trends can be improved
+  - Differential scoring (higher prevalence in specific areas) for early detection
+  - Location and activity tracking (lower activity -> higher prevalence confirmation)
+  - Bring physical data in to project physical phenomena
+
+  
