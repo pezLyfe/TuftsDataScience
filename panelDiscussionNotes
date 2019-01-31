@@ -210,26 +210,41 @@ the project? What can data scientists learn from this effort?
 "Where small data deals in exactitudes, Big Data settles for a direction"
 - GFT ultimately failed in trying to capture both
 - It did do a good job at capturing direction though
+- Related to the commercial uses of its algorithm, allowed more directed advertising for people that likely have the flu
+- Looking for ways to further refine the algorithm 
 
 1) Describe the two methods of predicting flu trends, the one used by the CDC and the one used by Google
   - Correlating relative frequency of key search terms with previous CDC data
-  - CDC collects confirmed cases and makes projections (steepness of a line etc)
+  - CDC collects confirmed cases and makes projections based on trend analysis
   
 2) Comment on the pros and cons of the two methods
   - CDC method lags real time by two weeks, backed by hard evidence
-  - GFT method 
+    - Costly to collect, not real time, difficult to analyze
+  - Using data collected for a different reason
+    - GFT method broken by changes to algorithm dynamics
+    - Not directly related to physical measurements
+    - Affected by decisions made for commercial reasons
   
 3) GFT relies purely on correlations to make predictions. Why should the frequency of some search terms
 be positively correlated with flu cases? Give examples of search terms you think might be 
 correlated with flu
+  - Parents searching to help their kids
+  - People with the flu can behave similarly
+    - Taking in fluids, eating bland foods, fever medication, stomach medicine
+  - Immune system boosting goods
 
 4) What are some reasons why someone searching for influenza may not have the flu?
 Why might someone who has the flu not show up in Google's search logs?
-  - Media coverage, may have a cold
-  - 
+  - Media coverage, frenzy
+  - May have a cold and looking to differentiate
+  - People concerned about catching the flu
+  - Completely floored with the flu
+    - Not doing anything
+    - They know they have the flu
+  
 5) Suggest ways in which Google Flu Trends can be improved
   - Differential scoring (higher prevalence in specific areas) for early detection
+    - Narrow down the breadth of CDC data collection and monitoring
+    - Slow the spread from hot spots
   - Location and activity tracking (lower activity -> higher prevalence confirmation)
-  - Bring physical data in to project physical phenomena
-
   
