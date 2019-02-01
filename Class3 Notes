@@ -1,0 +1,74 @@
+"Big Data"
+- volume, velocity, and variety
+- Observational, not controlled, complete (seemingly), adapted, merged
+  - Observed rather than measured (don't control the source of the data), adapted from other use cases, merged with unrelated               data sets
+  - Observational doesn't directly control for bias, or sampling error, can't understand who is responding and who is not
+    - Non-response bias
+  - Lack of control (Numbers are typically in reference to something else in normal statistics)
+    - 3.5 GPA with a population average of 3.2
+    - Hans Roessling statistics Youtube presenter
+      - Big Data is a pile of numerators with no denominators
+      - Web clicks knows how many people did click, but not how many people did not
+  - Complete, seemingly
+    - Claim of complete information (Still don't know what you don't have)
+    - "Surveillance gym" - Not collecting data from people who haven't come
+  - Adapted
+    - Repurposing data for something other than its original use
+    - Difficulties in understanding when the original author is unreachable
+  - Merged
+    - Merging data taken from multiple locations
+    - Yields errors, duplicates, quality problems
+    
+ MSC Book
+  - Discard old data practices
+    - N = all replace random samples
+    - Embrace messy data, sacrifice exactitude
+    - No need to understand why, rely on correlation
+  Fung
+    - Variations around the average (difference from average is most interesting)
+    - Why models make mistakes and why use them
+    - How many averages (sub groups of the population, how much aggregation is required?)
+    - Different types of errors 
+    - Arguing the impossible
+    
+ A/B Testing
+  - subjective decisions become incontrevertible matters of data science
+  - We don't know why one choice is better, it just is
+  
+Massive amounts of data and applied math replace every other tool that has ever been invented
+  - With enough data, the numbers speak for themselves
+    - Is it horseshit? 
+    
+tylervigen.com - funny correlations
+
+
+
+
+
+
+
+Ryan Ackerman - Mgr of Puma Business Analytics
+  - Life in BI
+    - Asking the right question in analysis
+    - Making information accessible
+ - The work put into making visualizations
+  - setting a solid foundation to make decisions on
+ - '
+ 
+ Keywords are key on linkedin and resumes
+ - Find job descriptions of what you want to do, find common themes and keywords that appear in all four
+ - Have a Y to your X
+  - Familiar with R and Python - terrible one
+  - Used R to generate random forest models to predict fallout, resulting in 30% decrease in abandoned carts
+  
+- keep things clean
+  - documentation, 
+  - make analysis sustainable (Make it easy to update in the future)
+    - Robustness, scalability, transferability
+  - Build in controls
+    - Check your own work, make it reliable, error checking, 
+  - Present simply
+  
+  Curiousity, desire to learn, 
+  
+  Start with accessibility, and simple to understand infrastructure
